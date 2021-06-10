@@ -4,9 +4,9 @@ thing = [(s) for s in input("Input numbers and integers with a space in between 
 
 #we need to then split function "thing" with...
 def split (thing):
-  #Words with brackets
+  #Define words variable
   words = []
-  #Numbers with brackets 
+  #Define numbers variable
   numbers = []
 #We then need to find i in "thing"
   for i in (thing):
@@ -23,5 +23,9 @@ def split (thing):
 #Finally it just prints and splits our function "split(thing)"
 print(split(thing))
 
+def sort(numbers):
+  list2 = []
+  
 # Second Function
 
+def 
