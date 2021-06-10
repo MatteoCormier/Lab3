@@ -23,8 +23,5 @@ def split (thing):
 #Finally it just prints and splits our function "split(thing)"
 print(split(thing))
 
-def sort(numbers):
-  list2 = []
-
 # Second Function
 
