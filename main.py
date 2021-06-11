@@ -28,17 +28,32 @@ def sort(numbers):
   
 # Second Function
 
+#Make variable a and b and spilt using "thing" like the thing before
 a, b = split(thing)
+
+#only look at b so that it doesnt try to sort the strings
 b = [int(j) for j in b]
-
+#Define the second for b
 def second(b):
+  #Define final variable
   final = []
+  #Define order variable
   order = []
+  #Use the order to sort b::2 and reverse true
+  
   order = sorted(b[1::2], reverse = True)
+  #del b1::2 like before exepct no reverse true
   del b[1::2]
+  #Final has to equal none for lenb to + len order
   final = [None] * (len(b) + len(order))
+  #Final will use the thing to equal to b
   final[::2] = b
+  #final also this is for order
   final[1::2] = order
+  #It will final return final
   return final
-
+  
+#And this will just print the message that will be listed here
+print("Here are your numbers where every second number is put into a descending order:\n")
+#This is how you print the numbers
 print(second(thing))
