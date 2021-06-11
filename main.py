@@ -28,4 +28,17 @@ def sort(numbers):
   
 # Second Function
 
-def 
+a, b = split(thing)
+b = [int(j) for j in b]
+
+def second(b):
+  final = []
+  order = []
+  order = sorted(b[1::2], reverse = True)
+  del b[1::2]
+  final = [None] * (len(b) + len(order))
+  final[::2] = b
+  final[1::2] = order
+  return final
+
+print(second(thing))
