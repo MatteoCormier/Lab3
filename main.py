@@ -20,11 +20,10 @@ def split (thing):
   #Then it all returns each of the words and the numbers
   return words, numbers
 
+#just prints out what the program is doing
+print("Your list of words and numbers is:\n")
 #Finally it just prints and splits our function "split(thing)"
 print(split(thing))
-
-def sort(numbers):
-  list2 = []
   
 # Second Function
 
