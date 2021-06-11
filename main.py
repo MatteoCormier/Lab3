@@ -24,7 +24,7 @@ def split (thing):
 print("Your list of words and numbers is:\n")
 #Finally it just prints and splits our function "split(thing)"
 print(split(thing))
-  
+
 # Second Function
 
 #Make variable a and b and spilt using "thing" like the thing before
